@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>お問い合わせ | 合同会社オリーブ</title>
+    <meta
+      name="description"
+      content="合同会社オリーブへのお問い合わせページです。ご相談・お問い合わせはこちらからどうぞ。"
+    />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="webclip.png" />
+
+    <meta property="og:site_name" content="合同会社オリーブ" />
+    <meta property="og:url" content="https://ドメイン/contact.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="お問い合わせ | 合同会社オリーブ" />
+    <meta
+      property="og:description"
+      content="合同会社オリーブへのお問い合わせページです。ご相談・お問い合わせはこちらからどうぞ。"
+    />
+    <meta property="og:image" content="https://ドメイン/img/ogp.jpg" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="お問い合わせ | 合同会社オリーブ" />
+    <meta
+      name="twitter:description"
+      content="合同会社オリーブへのお問い合わせページです。ご相談・お問い合わせはこちらからどうぞ。"
+    />
+    <meta name="twitter:image:src" content="https://ドメイン/img/ogp.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="l_header">
+      <h1 class="header-logo">
+        <a href="index.html" class="header-logo_link">
+          <img src="" alt="ロゴ" class="header-logo-img" />
+        </a>
+      </h1>
+      <nav class="header-nav" id="js-drawer">
+        <ul class="header-nav_list">
+          <li class="header-nav_item">
+            <a href="index.html" class="header-nav_link">ホーム</a>
+          </li>
+          <li class="header-nav_item">
+            <a href="about.html" class="header-nav_link">会社概要</a>
+          </li>
+          <li class="header-nav_item">
+            <a href="service.html" class="header-nav_link">サービス</a>
+          </li>
+          <li class="header-nav_item">
+            <a href="service.html#price" class="header-nav_link">料金表</a>
+          </li>
+          <li class="header-nav_item">
+            <a href="recruit.html" class="header-nav_link">求人情報</a>
+          </li>
+          <li class="header-nav_item">
+            <a href="frame.html" class="header-nav_link">各種書類</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="m_menu-box">
+        <button class="m_contact">
+          <a href="contact.html" class="header-contact_link">Contact</a>
+        </button>
+        <button class="m_menu" id="js-menu-btn">MENU</button>
+      </div>
+    </header>
+    <div class="m_overlay" id="js-overlay"></div>
+
+    <main class="l_main">
+      <section class="section_service">
+        <div class="l_container-lg">
+          <div class="l_contents">
+            <h2 class="top_section_title">連絡フォーム</h2>
+            <div class="service-body">
+              <p class="contact_line-txt">LINEよりお願いします</p>
+              <div class="contact_line-img-wrapper">
+                <img src="" alt="LINEのQRコード" class="contact_line-img" />
+              </div>
+              <form class="contact_form-body">
+                <div class="contact_form-item">
+                  <label class="contact_form-label">氏名・会社名（必須）</label>
+                  <input
+                    type="text"
+                    class="contact_form-input"
+                    placeholder="〇〇 〇〇様"
+                    required
+                  />
+                </div>
+                <div class="contact_form-item">
+                  <label class="contact_form-label">電話番号（必須）</label>
+                  <input
+                    type="tel"
+                    class="contact_form-input"
+                    placeholder="ハイフンなし"
+                    required
+                  />
+                </div>
+                <div class="contact_form-item">
+                  <label class="contact_form-label"
+                    >メールアドレス（必須）</label
+                  >
+                  <input
+                    type="email"
+                    class="contact_form-input"
+                    placeholder="mail@mail.com"
+                    required
+                  />
+                </div>
+                <div class="contact_form-item">
+                  <label class="contact_form-label"
+                    >お問い合わせ内容（必須）</label
+                  >
+                  <textarea
+                    class="contact_form-textarea"
+                    placeholder="フリーテキスト"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="contact_form-btn m_btn">
+                  送信
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="l_footer">
+      <div class="l_footer-inner">
+        <nav class="l_footer-nav">
+          <ul class="footer-nav_list">
+            <li class="l_footer-nav_item">
+              <a href="about.html" class="l_footer-nav_link">会社概要</a>
+            </li>
+            <li class="l_footer-nav_item">
+              <a href="service.html" class="l_footer-nav_link">サービス</a>
+            </li>
+            <li class="l_footer-nav_item">
+              <a href="service.html#price" class="l_footer-nav_link">料金表</a>
+            </li>
+            <li class="l_footer-nav_item">
+              <a href="contact.html" class="l_footer-nav_link">Contact</a>
+            </li>
+            <li class="l_footer-nav_item">
+              <a href="recruit.html" class="l_footer-nav_link">求人情報</a>
+            </li>
+            <li class="l_footer-nav_item">
+              <a href="frame.html" class="l_footer-nav_link">各種書類</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="l_footer-logo">
+          <a href="index.html" class="l_footer-logo_link">合同会社オリーブ</a>
+        </div>
+        <div class="l_footer-contents">
+          <div class="l_footer_info">
+            <p class="l_footer_adress">
+              〒000-0000 <br />
+              東京都豊島区池袋0-00-0
+            </p>
+            <a href="tel:123456789" class="l_footer-tell">123456789</a>
+            <p class="l_footer-atension">※連絡はLINEよりお願いします</p>
+          </div>
+          <div class="l_footer-contact">
+            <a href="" class="l_footer-contact_link">
+              <img src="" alt="LINE" />
+            </a>
+          </div>
+        </div>
+
+        <p class="l_footer-copyright">
+          <small class="l_footer-copyright_txt">&copy;2026 olive</small>
+        </p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
