@@ -686,6 +686,45 @@ body {
 
 /*---------- about ----------*/
 
+/* 理念 */
+.about_philosophy-body {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.about_philosophy-lead {
+  font-size: 18px;
+  line-height: 2;
+  color: var(--primary-color);
+  font-weight: bold;
+  text-align: center;
+}
+
+.about_philosophy-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about_philosophy-item {
+  border-left: 4px solid var(--primary-color);
+  padding-left: 16px;
+}
+
+.about_philosophy-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.about_philosophy-txt {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--black-color);
+}
+
 /* 代表挨拶 */
 
 .about_greeting-body {
