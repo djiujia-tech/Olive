@@ -108,9 +108,14 @@ body {
 }
 
 .header-logo-img {
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 52px;
   background-color: #000;
+}
+@media (min-width: 768px) {
+  .header-logo-img {
+    height: 100px;
+  }
 }
 
 .header-nav {
@@ -194,6 +199,18 @@ body {
   font-weight: bold;
   font-size: 16px;
   margin-top: 16px;
+}
+
+.footer-logo-img {
+  width: 160px;
+  height: auto;
+  display: block;
+}
+
+@media screen and (min-width: 960px) {
+  .footer-logo-img {
+    width: 240px;
+  }
 }
 
 .l_footer-contents {
