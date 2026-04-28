@@ -30,7 +30,6 @@
   --z-index-modal: 200;
 }
 
-
 /* ---------- base ---------- */
 body {
   color: var(--black-color);
@@ -782,7 +781,7 @@ body {
 
 @media screen and (min-width: 960px) {
   .top_cafe-contents {
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     gap: 48px;
   }
@@ -878,6 +877,11 @@ body {
   flex-direction: column;
   gap: 24px;
 }
+@media (min-width: 768px) {
+  .about_greeting-body {
+    flex-direction: row-reverse;
+  }
+}
 
 .about_greeting-img-wrapper {
   width: 100%;
@@ -910,7 +914,7 @@ body {
 }
 @media (min-width: 768px) {
   .about_greeting-lead {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 
@@ -940,6 +944,7 @@ body {
 @media (min-width: 768px) {
   .about_company-body {
     padding: 0 40px;
+    flex-direction: row;
   }
 }
 
@@ -1157,7 +1162,6 @@ body {
     rgba(var(--green-color2), 0.22) 0%,
     #fdfdf7 100%
   );
-  padding: 56px 0 72px;
 }
 
 #price {
@@ -1479,7 +1483,6 @@ body {
 .frame-link:hover {
   color: var(--primary-color);
 }
-
 
 .frame_insurance-item {
   display: flex;
